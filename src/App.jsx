@@ -32,7 +32,7 @@ function App() {
           orderCount={""}
         />
       </div>
-      <div>Transactions | This Month</div>
+      <div>Transactions of This Month</div>
     </div>
   );
 }
