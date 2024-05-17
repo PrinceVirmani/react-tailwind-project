@@ -7,18 +7,17 @@ import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
-    <div className="p-10 gap-y-15">
-      {/* Navbar */}
-
-      <Navbar />
-
-      {/* Sidebar */}
-
-      <Sidebar />
-
-      {/* Revenue Card Section */}
+    <div className="flex flex-col">
       <div>
-        <div className="flex justify-between">
+        <Sidebar />
+      </div>
+
+      <div className="">
+        <Navbar />
+      </div>
+
+      <div className=" mt-16 ml-64 w-9/12">
+        <div className="flex justify-between ">
           <div>OverView</div>
           <div>
             <Dropdown />
@@ -51,8 +50,10 @@ function App() {
         <div>Transactions | Month</div>
       </div>
 
-      {/* Table Section */}
-      <Table />
+      <div className=" mt-16 ml-64 w-9/12">
+        {" "}
+        <Table />
+      </div>
     </div>
   );
 }

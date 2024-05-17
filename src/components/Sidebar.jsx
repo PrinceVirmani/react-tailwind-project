@@ -2,30 +2,19 @@ import React from "react";
 
 const Sidebar = () => {
   return (
-    <div className="bg-gray-800 h-screen w-64 flex flex-col justify-between">
-      <div className="p-4">
-        <h1 className="text-white text-lg font-bold">Sidebar</h1>
-        <ul className="mt-4">
-          <li>
-            <a href="#" className="text-white hover:text-gray-300 block">
-              Link 1
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-white hover:text-gray-300 block">
-              Link 2
-            </a>
-          </li>
-          <li>
-            <a href="#" className="text-white hover:text-gray-300 block">
-              Link 3
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div className="p-4">
-        <p className="text-white">Sidebar footer</p>
-      </div>
+    <div className="fixed left-0 top-0 w-60 h-full bg-gray-800 z-50 transition duration-300 ease-in-out transform">
+      {/* Sidebar content here */}
+      <ul className="flex flex-col space-y-2 p-4">
+        <li className="text-white hover:text-gray-400">
+          <a href="#">Dashboard</a>
+        </li>
+        <li className="text-white hover:text-gray-400">
+          <a href="#">Settings</a>
+        </li>
+        <li className="text-white hover:text-gray-400">
+          <button>Close</button>
+        </li>
+      </ul>
     </div>
   );
 };

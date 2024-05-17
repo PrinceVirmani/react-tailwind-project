@@ -31,6 +31,36 @@ const Table = () => {
           <td className="px-6 py-4 whitespace-nowrap">john@example.com</td>
           <td className="px-6 py-4 whitespace-nowrap">Admin</td>
         </tr>
+        <tr>
+          <td className="px-6 py-4 whitespace-nowrap">John Doe</td>
+          <td className="px-6 py-4 whitespace-nowrap">john@example.com</td>
+          <td className="px-6 py-4 whitespace-nowrap">Admin</td>
+        </tr>
+        <tr>
+          <td className="px-6 py-4 whitespace-nowrap">John Doe</td>
+          <td className="px-6 py-4 whitespace-nowrap">john@example.com</td>
+          <td className="px-6 py-4 whitespace-nowrap">Admin</td>
+        </tr>
+        <tr>
+          <td className="px-6 py-4 whitespace-nowrap">John Doe</td>
+          <td className="px-6 py-4 whitespace-nowrap">john@example.com</td>
+          <td className="px-6 py-4 whitespace-nowrap">Admin</td>
+        </tr>
+        <tr>
+          <td className="px-6 py-4 whitespace-nowrap">John Doe</td>
+          <td className="px-6 py-4 whitespace-nowrap">john@example.com</td>
+          <td className="px-6 py-4 whitespace-nowrap">Admin</td>
+        </tr>
+        <tr>
+          <td className="px-6 py-4 whitespace-nowrap">John Doe</td>
+          <td className="px-6 py-4 whitespace-nowrap">john@example.com</td>
+          <td className="px-6 py-4 whitespace-nowrap">Admin</td>
+        </tr>
+        <tr>
+          <td className="px-6 py-4 whitespace-nowrap">John Doe</td>
+          <td className="px-6 py-4 whitespace-nowrap">john@example.com</td>
+          <td className="px-6 py-4 whitespace-nowrap">Admin</td>
+        </tr>
         {/* Add more rows as needed */}
       </tbody>
     </table>

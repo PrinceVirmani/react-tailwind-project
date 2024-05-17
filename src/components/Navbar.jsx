@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-black p-4 mt-0">
+    <nav className="bg-black p-4 mt-0 ml-60 h-16 top-0 left-0 z-10">
       <div className="container mx-auto flex justify-between ">
         <div className="flex">
           <div className="text-white font-bold">Payouts</div>
